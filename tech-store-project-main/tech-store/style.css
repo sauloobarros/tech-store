@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+.main-page {
+    background-color: rgb(169, 169, 169);
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 150px;
+    padding: 0 70px 0 40px;
+    position: fixed;
+    z-index: 1;
+    margin-top: -2.5em;
+    padding-top: 25px;
+    width: 100vw;
+}
+
+.logo-home {
+    height: 100px;
+    cursor: pointer;
+}
+
+.logo-home:hover {
+    opacity: 0.6;
+    transition: 0.7s;
+}
+
+
+nav h1 {
+    font-size: 65px;
+}
+
+nav h1 span {
+    color: #ff6600;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: #ff6600;
+    transition: 0.5s;
+}
+
+.options li:active {
+    opacity: 0.5;
+}
+
+.options {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.back-animation {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 37vw;
+    max-height: 700px;
+
+    position: relative;
+
+}
+
+.back-animation img {
+    border-radius: 50px;
+    opacity: 0;
+    position: absolute;
+
+
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.back-animation .back-principal {
+    opacity: 1;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 15%;
+    margin-top: 18px;
+    background-color: rgb(31, 31, 31);
+}
+
+#sobre span {
+    color: #ff6600;
+}
+
+#sobre h2 {
+    font-size: 80px;
+    color: white;
+}
+
+#sobre div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#sobre div a {
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+    background-color: #ff6600;
+    height: 25px;
+    width: 130px;
+    border-radius: 15px;
+}
+
+#sobre div a:hover{
+    background-color: #ad4a08;
+    transition: 0.5s;
+}
+
+#sobre div a:active{
+    background-color: #6e2e03;
+}
+
+#jogos {
+    display: flex;
+    padding: 100px 15%;
+    background-color: #ff6600;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 55px;
+}
+
+
+.list-games {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    gap: 10px;
+}
+
+.list-games img {
+    width: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.list-games img:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#celulares {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 15%;
+    background-color: #9f4000;
+    color: white;
+    font-size: 50px;
+}
+
+.list-phone {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    gap: 10px;
+}
+
+.list-phone img {
+    width: 120px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.list-phone img:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+/* #9f7960 */
+
+#informatica {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 15%;
+    background-color: #9f7960;
+    color: white;
+}
+
+#informatica h2 {
+    font-size: 70px;
+}
+
+.list-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    gap: 20px;
+}
+
+.list-info img:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.list-info img{ 
+    width: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+}
